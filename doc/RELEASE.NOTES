@@ -1,0 +1,37 @@
+2016-11-07 - Snort 2.9.9.0
+[*] New additions
+
+
+ *  New rule option for byte_math.  See the Snort manual for details.
+
+
+ *  Added bitmask and from_end operations to byte_test.  See the Snort manual for details.
+
+
+ *  Added a Buffer Dump utility to show all of the data Snort can use to match.
+
+    Enable this by --enable-buffer-dump option to configure prior to building.
+
+    See the Snort manual for details.
+
+
+ *  Added new HTTP Preprocessor alerts For Multiple content encoding  and Multiple content length.
+
+ *  Added SMTP detection to AppID.
+
+[*] Improvements
+ *  Performance improvements to AppID.
+
+ *  Fixed multiple issue in AppID.
+
+ *  Stability improvement for Stream6 preprocessor.
+
+ *  Fixed multiple issues in HttpInspect preprocessor.
+
+ *  Fixed mime data processing issue in SMTP stateless inpection.
+
+ *  Able to decode packets that contains VLAN and SGT.
+
+ *  Fixed few issues in byte_math rule option.
+
+
