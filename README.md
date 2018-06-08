@@ -1,3 +1,6 @@
+# Proposed Work
+We have proposed rules to identify XSS (Web Application) attack with the help of IDS, and we will monitor our incoming & outgoing packets which will further match with our database rules. This section provides method established by SNORT IDS Method.
+
 # Detecting XSS using an IDS
 This work focuses on the detection of XSS attack using intrusion detection system. Here attack signature is utilized to detect XSS attack. To test the usefulness and effectiveness of proposed work a proof of concept prototype has been implemented using SNORT IDS. It is observed that proposed system correctly detected XSS attack.
 
@@ -31,6 +34,3 @@ Intrusion Detection System inspects packets going to and from the network and ma
 1. Signature Based Detection: This class of attack looks for a pattern or a signature to match with the incoming packets from the database. So that same attack can be prevented in future from happening again.
 
 2. Anomaly Based Detection: It inspects ongoing traffic and activities for any erratic behaviour on network, system that could recognize an attack.
-
-# Proposed Work
-We have proposed rules to identify XSS (Web Application) attack with the help of IDS, and we will monitor our incoming & outgoing packets which will further match with our database rules. This section provides method established by SNORT IDS Method.
