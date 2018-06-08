@@ -18,3 +18,19 @@ There are three actors in this attack (XSS) the attacker, the website and the vi
 1.Stored XSS: It take place when a target server stores the input from the user in the form of a message a database or visited log after this data becomes the part of website but instead of data user inputs a payload. When the stored payload is run locally, after which enables the malicious code that is saved as an data input by the user.
 
 2.Reflected XSS: When a web application returns an error message, or any other response that comprises all input provided by the user immediately after user input was made.
+
+# Intrusion Detection System
+Intrusion Detection System inspects packets going to and from the network and makes a log for packet that are involved in attack or are vulnerable according to rules.
+
+# Types of IDS on the basis of Architecture
+1. Host-based Intrusion Detection System (HIDS): This kind of System is placed on a Host as an Agent. They examine the activities on each host autonomously which include sniffing the Network traffic coming through and going out towards the Host.
+
+2. Network-based Intrusion Detection System (NIDS):This sort of System is placed on a Network. It examines the activities at the Network which include sniffing (the Cable Wire and Wireless Devices') packets and then matching them with the signature database to monitor the detection of an attack.
+
+# Types of IDS on the basis of Detection Method
+1. Signature Based Detection: This class of attack looks for a pattern or a signature to match with the incoming packets from the database. So that same attack can be prevented in future from happening again.
+
+2. Anomaly Based Detection: It inspects ongoing traffic and activities for any erratic behaviour on network, system that could recognize an attack.
+
+# Proposed Work
+We have proposed rules to identify XSS (Web Application) attack with the help of IDS, and we will monitor our incoming & outgoing packets which will further match with our database rules. This section provides method established by SNORT IDS Method.
